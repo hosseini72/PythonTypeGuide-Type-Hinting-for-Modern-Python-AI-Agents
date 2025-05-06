@@ -5,4 +5,4 @@ Python's dynamic typing has long been both a blessing and a curse for developers
 This repo explores Python type hints from basic usage to advanced applications, with special focus on their critical role in AI agent development.
 
 
-[Back to Index](../../README.md)
+[Back to Index](../README.md)
