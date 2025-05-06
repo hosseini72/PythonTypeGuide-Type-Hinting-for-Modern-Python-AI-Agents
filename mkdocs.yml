@@ -11,7 +11,7 @@ theme:
 nav:
   - Home: index.md
   - Introduction:
-    - Overview: introduction/readme.md
+    - Overview: introduction/README.md
     - Why Type Hints?: introduction/why_type_hints.md
     - Annotations in Python: introduction/annotation_in_python.md
     - Type Hint Taxonomy: introduction/type_hint_taxonomy.md

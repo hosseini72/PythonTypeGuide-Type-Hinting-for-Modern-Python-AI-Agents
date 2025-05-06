@@ -5,7 +5,7 @@ A comprehensive guide to understanding and using type hints in Python, with a fo
 ## Table of Contents
 
 ### Introduction
-- [Overview](introduction/readme.md)
+- [Overview](introduction/README.md)
 - [Why Type Hints?](introduction/why_type_hints.md)
 - [Annotations in Python](introduction/annotation_in_python.md)
 - [Type Hint Taxonomy](introduction/type_hint_taxonomy.md)
