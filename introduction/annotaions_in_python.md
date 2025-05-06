@@ -80,3 +80,6 @@ Type hints excel at creating self-documenting code by:
 - Eliminating the guesswork typically required to understand valid inputs
 
 This means developers can understand how to use functions and methods correctly simply by reading their signatures, without having to dive into implementation details or rely on external documentation. The type information serves as built-in documentation that remains synchronized with the code itself, making the entire codebase more accessible and maintainable.
+
+
+[Back to Index](../../README.md)
