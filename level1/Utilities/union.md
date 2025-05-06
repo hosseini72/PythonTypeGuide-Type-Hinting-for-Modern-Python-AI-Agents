@@ -100,3 +100,6 @@ def process_input(value: Union[int, str]) -> str:
    - `Literal`: For specific value unions
    - `Any`: When any type is acceptable
    - `TypeVar`: For generic type variables
+
+
+[Back to Index](../../README.md)

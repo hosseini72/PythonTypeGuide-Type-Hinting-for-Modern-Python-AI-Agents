@@ -239,3 +239,7 @@ class Transaction(NamedTuple):
 ```
 
 The NamedTuple type hint provides a clean, efficient, and type-safe way to create lightweight immutable data objects in Python. It combines the benefits of tuples (immutability, efficiency) with those of classes (named attributes, methods) while adding strong typing for better code quality and IDE support.
+
+
+
+[Back to Index](../../README.md)

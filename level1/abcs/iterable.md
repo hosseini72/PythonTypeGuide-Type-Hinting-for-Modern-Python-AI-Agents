@@ -510,3 +510,5 @@ print(f"Flattened: {flat}")  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 The `Iterable` type hint is fundamental to Python's collection system, representing objects that can be iterated over. Using this type hint improves code flexibility, enabling functions to work with a wide variety of sequence types while maintaining good type safety.
 
+
+[Back to Index](../../README.md)

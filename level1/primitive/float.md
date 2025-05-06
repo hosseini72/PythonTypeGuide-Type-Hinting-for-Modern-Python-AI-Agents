@@ -77,3 +77,4 @@ def calculate_velocity(distance: float, time: float) -> float:
    - `complex`: For complex numbers
    - `numpy.float64`: For numpy array operations
 
+[Back to Index](../../README.md)

@@ -550,3 +550,5 @@ def collection_stats(collection: Collection[T]) -> Dict[str, any]:
         "is_empty": len(collection) == 0
     }
 ```
+
+[Back to Index](../../README.md)

@@ -81,3 +81,7 @@ validate_exactly_three(one_element)  # Raises ValueError
 ```
 
 Unlike tuples, where the position and type of each element can be specified, frozensets (and sets) are unordered collections with no concept of positions. The type hint only specifies what types of elements can be contained, not how many.
+
+
+[Back to Index](../../README.md)
+

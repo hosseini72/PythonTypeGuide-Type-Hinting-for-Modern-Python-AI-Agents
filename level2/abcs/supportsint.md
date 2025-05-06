@@ -80,3 +80,7 @@ def process_percentage(percent: SupportsInt) -> int:
    - `SupportsFloat`: For objects supporting float conversion
    - `SupportsIndex`: For objects that can be used as sequence indices
    - `Union[int, float]`: For explicit union of common numeric types
+
+
+
+[Back to Index](../../README.md)

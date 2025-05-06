@@ -128,3 +128,6 @@ def length_validator(min_length: int) -> Callable[[str], bool]:
    - `ParamSpec`: For preserving parameter types in higher-order functions (Python 3.10+)
    - `Concatenate`: For adding parameters to existing callable types (Python 3.10+)
    - `collections.abc.Callable`: Runtime checkable version (Python 3.9+)
+
+
+[Back to Index](../../README.md)

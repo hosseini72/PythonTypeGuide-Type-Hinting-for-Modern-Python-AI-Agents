@@ -138,3 +138,7 @@ def process_data(data: Union[List[int], Dict[str, Any]]) -> None:
    - `assert_type()`: For checking type compatibility at development time
    - `Any`: When you need to opt out of type checking
    - `TYPE_CHECKING`: For imports that are only used by the type checker
+
+
+[Back to Index](../../README.md)
+

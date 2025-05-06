@@ -282,3 +282,4 @@ def analyze_collection(collection: SearchableCollection[T]) -> None:
         print(f"Collection contains example item: {example_item in collection}")
 ```
 
+[Back to Index](../../README.md)

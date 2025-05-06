@@ -64,3 +64,7 @@ reveal_type(list(mapped))  # Type checker: "Revealed type is 'List[int]'"
 
 4. **Future Learning**
    As you become more familiar with type hints, you'll use reveal_type to understand how type checkers handle more advanced features like TypeVar, Protocol, and conditional typing.
+
+
+
+[Back to Index](../../README.md)

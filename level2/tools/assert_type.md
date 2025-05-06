@@ -68,3 +68,6 @@ assert_type(user_id, int)  # Validates return type
 
 4. **Future Learning**
    As you become more familiar with type hints, you'll learn how to use assert_type with more complex typing constructs like Unions, TypeVars, and conditional types.
+
+
+[Back to Index](../../README.md)

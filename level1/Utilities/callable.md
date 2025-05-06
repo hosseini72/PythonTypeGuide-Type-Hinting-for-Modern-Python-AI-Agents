@@ -136,3 +136,5 @@ def apply_to_each(items: List[T], func: Callable[[T], str]) -> List[str]:
 
 The Callable type hint is essential for typing higher-order functions and callback patterns, enabling type checkers to verify that functions are used with correct argument and return types.
 
+
+[Back to Index](../../README.md)

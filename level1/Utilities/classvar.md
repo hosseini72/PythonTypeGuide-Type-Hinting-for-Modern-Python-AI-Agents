@@ -146,3 +146,4 @@ class ConfigurationManager:
 The ClassVar type hint is a useful tool for clearly documenting class variables and preventing common mistakes where instance variables unintentionally shadow class variables. While it doesn't change runtime behavior, it provides valuable information to both developers and type checkers.
 
 
+[Back to Index](../../README.md)

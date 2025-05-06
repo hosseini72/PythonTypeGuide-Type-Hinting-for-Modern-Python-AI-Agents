@@ -173,3 +173,6 @@ def register_endpoint(
 ```
 
 The Annotated type hint is a powerful way to extend Python's type system with additional metadata that can be used by tools, frameworks, and documentation generators without affecting the runtime behavior of your code.
+
+
+[Back to Index](../../README.md)

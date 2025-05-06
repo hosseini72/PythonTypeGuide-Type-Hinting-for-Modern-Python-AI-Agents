@@ -75,3 +75,5 @@ def check_password_strength(password: str) -> bool:
    - `Union[str, int]`: For values that could be either strings or integers
    - `TypedDict`: For dictionary keys that must be strings
 
+
+[Back to Index](../../README.md)

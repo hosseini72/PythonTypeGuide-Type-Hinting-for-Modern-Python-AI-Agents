@@ -79,9 +79,7 @@ def calculate_power(z: complex, n: int) -> complex:
    - `tuple[float, float]`: Alternative representation of complex numbers
    - `cmath`: Module for complex number mathematical functions
 
-## Usage
 
-## Examples
+[Back to Index](../../README.md)
 
-## Related Types
 

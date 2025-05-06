@@ -286,3 +286,6 @@ def validate_structure(data: Mapping[str, Any], schema: Mapping[str, type]) -> b
 ```
 
 The `Mapping` type hint is essential when you need to work with dictionary-like objects in a read-only manner, providing flexibility to accept various mapping implementations while clearly expressing your function's requirements.
+
+
+[Back to Index](../../README.md)

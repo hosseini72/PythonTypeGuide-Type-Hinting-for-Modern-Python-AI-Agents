@@ -66,3 +66,6 @@ empty_numbers: Tuple[int, ...] = ()
    - Use variable-size tuples with ellipsis when the number of elements varies
    - Specify types for each position in fixed-size tuples
    - Use type hints to document the meaning of each position
+
+
+[Back to Index](../../README.md)

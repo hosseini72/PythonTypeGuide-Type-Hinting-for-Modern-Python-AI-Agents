@@ -112,3 +112,6 @@ Consider generic types: Instead of Any, you might be able to use TypeVars and ge
 Document your use of Any: Add comments explaining why Any is necessary in each case.
 
 Narrow Any when possible: Use isinstance() checks to narrow Any to more specific types when performing operations.
+
+
+[Back to Index](../../README.md)

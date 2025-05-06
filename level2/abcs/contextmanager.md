@@ -182,3 +182,6 @@ def safe_open(file_path: str, mode: str = 'r') -> ContextManager[TextIO]:
 ```
 
 The ContextManager type hint is valuable for indicating functions or variables that follow the context manager protocol, enhancing code readability and enabling more precise type checking for resources that require setup and cleanup operations.
+
+
+[Back to Index](../../README.md)

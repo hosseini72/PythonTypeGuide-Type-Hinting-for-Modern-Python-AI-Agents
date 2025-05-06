@@ -191,3 +191,7 @@ def last_n_elements(items: Reversible[T], n: int) -> List[T]:
 ```
 
 The Reversible type hint is useful for functions that specifically need to work with collections that can be iterated in reverse order, providing clear intent and enabling type checkers to verify that appropriate collections are passed to such functions.
+
+
+
+[Back to Index](../../README.md)

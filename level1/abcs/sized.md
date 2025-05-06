@@ -223,3 +223,6 @@ def safe_get_length(obj: Sized) -> int:
 4. **Consider runtime checks**: For functions accepting `Sized`, consider adding runtime checks for size limits if appropriate.
 
 5. **Protocol compatibility**: Remember that `Sized` only guarantees the existence of `__len__`, not any other collection methods.
+
+
+[Back to Index](../../README.md)

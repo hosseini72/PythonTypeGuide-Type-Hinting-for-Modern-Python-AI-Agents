@@ -154,3 +154,7 @@ def process_json(data: Any) -> None:
    - `cast()`: For telling the type checker about a type without checking
    - `Protocol`: For structural subtyping
    - `Any`: The dynamic type that TypeGuard helps to narrow
+
+
+
+[Back to Index](../../README.md)

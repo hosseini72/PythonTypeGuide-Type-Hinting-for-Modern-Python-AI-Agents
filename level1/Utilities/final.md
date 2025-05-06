@@ -178,3 +178,5 @@ class SecurityManager:
 The Final type hint is a valuable tool for documenting and enforcing that certain values should not be reassigned, enhancing code quality and preventing certain classes of bugs. Unlike some other type hints, Final provides clear guidance to both developers and type checkers about the intended immutability of a value.
 
 
+
+[Back to Index](../../README.md)

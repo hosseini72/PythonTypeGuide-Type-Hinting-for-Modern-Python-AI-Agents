@@ -120,3 +120,7 @@ def use_echo() -> None:
    - `Iterable`: For objects that can produce iterators
    - `AsyncGenerator`: For asynchronous generators using `async def` with `yield`
    - `collections.abc.Generator`: Runtime checkable version (Python 3.9+)
+
+
+
+[Back to Index](../../README.md)

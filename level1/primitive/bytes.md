@@ -77,3 +77,4 @@ def receive_data(socket, buffer_size: int) -> bytes:
    - `int`: For individual byte values (0-255)
 
 
+[Back to Index](../../README.md)

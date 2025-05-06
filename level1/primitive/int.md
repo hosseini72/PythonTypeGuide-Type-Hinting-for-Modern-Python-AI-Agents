@@ -1,14 +1,4 @@
-# int
-
-## Overview
-
-## Usage
-
-## Examples
-
-## Related Types
-
-# Integer Type Hints in Python
+# Int type hint in Python
 
 ## Overview
 Integer type hints in Python are used to specify that a variable should be an integer. Python's integers are unbounded, meaning they can be as large as your system's memory allows.
@@ -82,4 +72,7 @@ def count_occurrences(items: list[str], target: str) -> int:
    - `float`: For decimal numbers
    - `bool`: For boolean values (technically a subclass of int)
    - `complex`: For complex numbers
+
+
+[Back to Index](../../README.md)
 

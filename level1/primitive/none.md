@@ -81,9 +81,7 @@ def find_user(user_id: int) -> Optional[dict[str, str]]:
    - `Any`: Can be None or any other type
    - `NotRequired`: For optional dictionary keys (Python 3.11+)
 
-## Usage
 
-## Examples
+[Back to Index](../../README.md)
 
-## Related Types
 

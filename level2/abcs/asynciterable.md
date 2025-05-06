@@ -129,3 +129,6 @@ class AsyncEventEmitter:
    - `Iterable`: The synchronous equivalent of AsyncIterable
    - `AsyncGenerator`: Specific type for async generator functions
    - `Awaitable`: For objects that can be awaited once
+
+
+[Back to Index](../../README.md)

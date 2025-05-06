@@ -71,3 +71,7 @@ class UserProfile(Profile, total=True):
 
 4. **Future Learning**
    As you become more familiar with type hints, you'll learn how to compose TypedDict definitions through inheritance and use them with other advanced typing features like Union and Generic types.
+
+
+
+[Back to Index](../../README.md)

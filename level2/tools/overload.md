@@ -138,3 +138,7 @@ product = create_object(Product, {"name": "Laptop", "price": 999.99})  # Type: P
    - `TypeVar`: Used for generic functions where type relationships need to be preserved
    - `@singledispatch`: For runtime function dispatching based on argument type
    - `Protocol`: For defining interfaces based on behavior rather than inheritance
+
+
+
+[Back to Index](../../README.md)

@@ -190,3 +190,7 @@ def get_user(user_id: UserId) -> OptionalUser:
 ```
 
 The TypeAlias type hint is a powerful tool for making complex type annotations more readable and maintainable. By giving descriptive names to complex types, you can improve code readability and communicate the intention behind the types more clearly.
+
+
+
+[Back to Index](../../README.md)

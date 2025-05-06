@@ -73,3 +73,5 @@ def update_settings(enable_feature: bool, settings: dict[str, bool]) -> dict[str
    - `Optional[bool]`: For nullable boolean values
    - `Union[bool, int]`: When a value could be either boolean or integer
 
+
+[Back to Index](../../README.md)

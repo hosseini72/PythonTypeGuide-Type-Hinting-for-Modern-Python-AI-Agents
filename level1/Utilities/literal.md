@@ -172,3 +172,6 @@ def fetch_data() -> Response:
 ```
 
 The Literal type hint is a powerful tool for making your type annotations more precise and expressive, particularly when dealing with a fixed set of possible values for a variable, parameter, or return value.
+
+
+[Back to Index](../../README.md)

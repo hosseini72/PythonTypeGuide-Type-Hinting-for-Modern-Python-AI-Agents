@@ -129,3 +129,6 @@ def process_data(data: Optional[str]) -> str:
    - Use `Optional` when the intent is "a value or None"
    - Use `Union` when you have multiple possible types
    - Both can be written as `T | None` in Python 3.10+
+
+
+[Back to Index](../../README.md)

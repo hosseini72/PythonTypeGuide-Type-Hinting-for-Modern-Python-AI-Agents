@@ -198,3 +198,6 @@ async def api_session(base_url: str) -> AsyncContextManager[aiohttp.ClientSessio
 ```
 
 The AsyncContextManager type hint is essential for typing asynchronous resource management patterns, enabling type checkers to verify that async context managers are used correctly in asynchronous code. This helps catch potential errors and improves code clarity in asynchronous applications.
+
+
+[Back to Index](../../README.md)

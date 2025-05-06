@@ -209,3 +209,6 @@ def register_service(name: str, service_cls: Type[T]) -> T:
 
 The Type type hint is a powerful tool for working with classes as first-class objects in Python, enabling factory patterns, dependency injection, and flexible class registries while maintaining type safety.
 
+
+
+[Back to Index](../../README.md)

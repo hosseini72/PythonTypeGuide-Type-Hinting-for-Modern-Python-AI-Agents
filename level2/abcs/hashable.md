@@ -216,3 +216,6 @@ def process_unique_points(points: Set[ImmutablePoint]) -> Dict[ImmutablePoint, f
 
 The Hashable type hint is essential for functions that use objects as dictionary keys or set elements, enabling type checkers to verify that only hashable objects are used in contexts that require them. This helps catch potential runtime errors early in the development process.
 
+
+
+[Back to Index](../../README.md)

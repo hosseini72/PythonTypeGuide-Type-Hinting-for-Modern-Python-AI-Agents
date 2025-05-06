@@ -77,3 +77,6 @@ def get_type_name(value: Union[str, int, float, list]) -> str:
 
 4. **Future Learning**
    As you become more familiar with type hints, you'll see how assert_never combines with pattern matching (Python 3.10+) to create powerful and type-safe code that handles all possible cases.
+
+
+[Back to Index](../../README.md)

@@ -39,3 +39,5 @@ While Python dictionaries are heterogeneous by default (can store different type
 3. **Future Learning**
 As you explore more advanced type hints, you'll be able to define dictionaries with more complex key-value pairs, such as dictionaries with mixed types, using Union or TypedDict.
 
+
+[Back to Index](../../README.md)

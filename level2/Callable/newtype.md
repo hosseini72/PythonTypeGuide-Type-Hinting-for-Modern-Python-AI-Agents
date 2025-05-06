@@ -139,3 +139,7 @@ def get_user_groups(user_id: UserId) -> List[GroupId]:
    - `Enum`: For enumerated values with runtime validation
    - `NamedTuple`: For structured data with named fields
    - `Protocol`: For structural subtyping
+
+
+
+[Back to Index](../../README.md)
