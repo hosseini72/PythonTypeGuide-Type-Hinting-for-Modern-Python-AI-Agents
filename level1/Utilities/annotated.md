@@ -69,7 +69,7 @@ from fastapi import Path, Query  # Third-party framework
 # FastAPI uses Annotated for parameter metadata
 def get_item(
     item_id: Annotated[int, Path(title="Item ID", ge=1)],
-    q: Annotated[str, Query(max_length=50)] = None
+    q: Annotated[str, Query(max_length=50)]
 ):
     # Implementation
     return {"item_id": item_id, "q": q}
@@ -148,7 +148,7 @@ Be consistent: If you use Annotated for one parameter in a function, consider us
 Document metadata expectations: If you're creating a framework that processes annotations, document what metadata you expect and in what format.
 
 ```python
-from typing import Annotated, Any, Dict
+from typing import Annotated, Optional, Any, Dict
 
 # Clear documentation of expected metadata
 def register_endpoint(
@@ -158,7 +158,7 @@ def register_endpoint(
         "Must accept request object and return dict or None"
     ],
     metadata: Annotated[
-        Dict[str, Any],
+        Optional[Dict[str, Any]],
         "Optional endpoint configuration"
     ] = None
 ) -> None:

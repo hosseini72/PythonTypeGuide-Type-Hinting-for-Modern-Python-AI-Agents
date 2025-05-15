@@ -53,8 +53,8 @@ from typing import ClassVar, Dict, Type
 import weakref
 
 class Service:
-    # Class-level cache of instantiated services
-    _instances: ClassVar[Dict[str, "Service"]] = {}
+    # Using weakref to allow garbage collection
+    _instances: ClassVar[weakref.WeakValueDictionary] = weakref.WeakValueDictionary()
     
     # Instance attributes
     name: str

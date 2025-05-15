@@ -287,5 +287,37 @@ def validate_structure(data: Mapping[str, Any], schema: Mapping[str, type]) -> b
 
 The `Mapping` type hint is essential when you need to work with dictionary-like objects in a read-only manner, providing flexibility to accept various mapping implementations while clearly expressing your function's requirements.
 
+## Differences Between Mapping, MutableMapping, dict, and TypedDict in Python Type Hints
+Here's a breakdown of these related but distinct type hints:
+**Mapping**
+Mapping (from typing) represents a generic read-only mapping type with key-value pairs. It's an abstract base class that:
+
+   - Provides a protocol for dictionary-like objects
+   - Is immutable (doesn't guarantee methods like `__setitem__`)
+   - Requires `__getitem__`, `__iter__`, and `__len__` methods
+   - Is generic over key and value types: Mapping[KeyType, ValueType]
+
+**MutableMapping**
+MutableMapping extends Mapping to represent a mutable mapping that can be modified. It:
+
+   - Adds required mutation methods like `__setitem__` and `__delitem__`
+   - Also generic over key and value types: MutableMapping[KeyType, ValueType]
+   - Represents any dictionary-like object that can be modified
+
+**dict**
+When used as a type hint, dict refers to the concrete built-in dictionary class:
+
+   - It's a specific implementation of MutableMapping
+   - Used as dict[KeyType, ValueType] in modern Python
+   - Less flexible than Mapping/MutableMapping as it specifies the exact implementation class
+
+**TypedDict**
+TypedDict is quite different from the others. It specifically:
+
+   - Defines a dictionary with known keys and value types per key
+   - Allows you to specify the exact structure of a dictionary
+   - Doesn't support generic key types - keys are always strings
+   - Lets you define different types for different keys
+
 
 [Back to Index](../../README.md)

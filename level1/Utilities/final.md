@@ -64,6 +64,7 @@ class PaymentProcessor:
 ### Preventing Method Overrides
 ```python
 from typing import Final
+from typing import final  # Import the final decorator
 
 class BaseAuthenticator:
     def authenticate(self, username: str, password: str) -> bool:
@@ -73,23 +74,22 @@ class BaseAuthenticator:
         return result
     
     def _check_credentials(self, username: str, password: str) -> bool:
-        # Implementation
+        # Implementation that can be overridden
         return True
     
-    # This method should not be overridden by subclasses
+    @final  # Correctly marking this method as final
     def _log_attempt(self, username: str, success: bool) -> None:
         """Log authentication attempts - security critical, do not override."""
         # Implementation that should not be changed
         pass
     
-    # Using Final to prevent override in type checkers
+    @final  # Correctly marking this method as final
     def verify_token(self, token: str) -> bool:
         """Final method that should not be overridden."""
         # Implementation
         return len(token) > 0
     
-    # Explicit notation for methods that should not be overridden
-    # (Python 3.8+)
+    @final  # Correctly marking this method as final
     def revoke_access(self, user_id: str) -> None:
         """Revokes all access for a user."""
         # Implementation
@@ -98,14 +98,16 @@ class BaseAuthenticator:
 class CustomAuthenticator(BaseAuthenticator):
     def _check_credentials(self, username: str, password: str) -> bool:
         # This is fine, _check_credentials is not final
-        return custom_check(username, password)
+        return custom_check(username, password)  # Assuming custom_check is defined elsewhere
+    
+    # The following would cause type errors with a proper type checker
     
     def verify_token(self, token: str) -> bool:
-        # Type error! Cannot override a method marked Final
-        return custom_verify(token)
+        # Type error! Cannot override a method marked @final
+        return custom_verify(token)  # Assuming custom_verify is defined elsewhere
     
     def revoke_access(self, user_id: str) -> None:
-        # Type error! Cannot override a method marked Final
+        # Type error! Cannot override a method marked @final
         pass
 ```
 
@@ -129,6 +131,7 @@ class Utility:
 class Derived(Utility):  # Type error! Cannot inherit from final class
     pass
 ```
+As a reminder, the @final decorator, like most other type annotations in Python, does not affect runtime behavior. It is purely a type hint intended for static type checkers.
 
 ### Final vs. Constant Naming Conventions
 While Python traditionally uses uppercase names for constants, Final provides additional type checking benefits:

@@ -26,9 +26,9 @@ A comprehensive guide to understanding and using type hints in Python, with a fo
   - [Set](level1/collections/set.md)
   - [FrozenSet](level1/collections/frozenset.md)
 - Basic Utilities
-  - [Optional](level1/utilities/optional.md)
   - [Union](level1/utilities/union.md)
   - [Any](level1/utilities/any.md)
+  - [Optional](level1/utilities/optional.md)
   - [Literal](level1/utilities/literal.md)
   - [Callable](level1/utilities/callable.md)
   - [Annotated](level1/utilities/annotated.md)

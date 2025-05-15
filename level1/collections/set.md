@@ -20,7 +20,7 @@ tags: Set[str] = {"python", "programming", "typing"}
 
 In these examples, the set `tags` is annotated to contain strings. Type hints like `set[str]` indicate that all elements in the set are expected to be strings.
 
-Sets in Python are unordered collections of unique elements. Using type hints helps specify what types of elements the set should contain, which aids both documentation and static type checking.
+In Python, a set is an unordered collection of unique elements, and all elements in a set must be hashable. This means that each item must have a consistent hash value, which Python uses internally to manage set membership efficiently. For an object to be hashable, it must be immutable, such as a string, number, or a tuple containing only hashable elements. Mutable types like lists, dictionaries, or other sets cannot be added to a set, as their contents can change and thus make their hash unreliable. Type hints like set[str] help clarify that the set should only contain strings, improving both code readability and static type checking.
 
 ## Important Notes
 

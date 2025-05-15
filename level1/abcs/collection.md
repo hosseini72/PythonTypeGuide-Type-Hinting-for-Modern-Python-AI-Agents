@@ -86,7 +86,7 @@ T = TypeVar('T')
 
 def validate_collection(collection: Collection[T], 
                         min_size: int = 0,
-                        max_size: int = float('inf'),
+                        max_size: float = float('inf'),
                         required_elements: Collection[T] = None) -> Dict[str, Any]:
     """
     Validate a collection against a set of criteria.

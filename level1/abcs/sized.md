@@ -49,7 +49,7 @@ from typing import Sized, TypeVar, List, Tuple, Dict, Any
 
 T = TypeVar('T', bound=Sized)
 
-def validate_size(obj: T, min_size: int = 0, max_size: int = float('inf')) -> bool:
+def validate_size(obj: T, min_size: int = 0, max_size: float = float('inf')) -> bool:
     """
     Validate that an object's size is within specified bounds.
     
